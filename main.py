@@ -16,7 +16,7 @@ def set_members(bot, update):
     print ("Setted members: "+update.message.text)
     
 
-updater = Updater('KEY')
+updater = Updater('1575886074:AAEy4tkS8ccUebk2ENfZoYu_WJ_UNVA_m7c')
 
 
 updater.dispatcher.add_handler(CommandHandler('all', all))
